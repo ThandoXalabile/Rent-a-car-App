@@ -1,0 +1,282 @@
+body {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    overflow-y: scroll;
+}
+
+
+/* .landing {
+    height: 300vh;
+    width: 100%;
+    bottom: 4px;
+    background: url('images/cover1.jpeg'), url("");
+    background-position: bottom;
+    background-size: ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+} */
+
+.landing {
+    position: relative;
+    color: goldenrod;
+    margin-left: 27%;
+    margin-top: 200px;
+    height: 40vh;
+}
+
+.buttons {
+    font-size: 24px;
+    width: 75px;
+    color: rgb(218, 132, 218);
+    border: none;
+    border-radius: 12px;
+    /* display: flex; */
+    flex: space-around;
+    margin-left: 40%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+/* .buttons: hover {
+color: saddlebrown;
+} */
+
+.header {
+    background-color: gold;
+    background-image: url('https://images.unsplash.com/reserve/oGLumRxPRmemKujIVuEG_LongExposure_i84.jpeg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    height: 40vh;
+    width: 100%;
+    margin-top: -10px;
+    font-family: 'alfa';
+    font-size: 2em;
+    font-style: italic;
+    line-height: 1.3em;
+    color: whitesmoke;
+}
+
+.topnav a {
+    float: center;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.topnav a:hover {
+    background-color: orange;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: none;
+    color: whitesmoke;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+.nav-link {
+    font-family: 'The Historia Demo', sans-serif;
+    background: linear-gradient(to top, red, gold, white);
+    font-size: 5rem;
+    padding: 1rem;
+}
+
+.header .menu-toggler {
+    position: absolute;
+    top: 5rem;
+    right: 5rem;
+    width: 5rem;
+    height: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    z-index: 1500;
+    transition: transform 650ms ease-out;
+}
+
+.bar {
+    background: linear-gradient(to right, red, gold, white);
+    width: 100%;
+    height: 4px;
+    border-radius: .8rem;
+}
+
+.bar.half {
+    width: 50%, 50%;
+}
+
+
+/* form */
+
+.contact {
+    background-color: gold;
+    background-image: url('https://images.unsplash.com/reserve/oGLumRxPRmemKujIVuEG_LongExposure_i84.jpeg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+form {
+    width: 70%;
+    margin: 0 auto;
+}
+
+form label {
+    font-size: 1.5rem;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 5px;
+    border: none;
+    outline-color: Teal;
+}
+
+input[type="submit"] {
+    width: initial;
+    background-color: #fd57bf;
+    color: #eee;
+    padding: 1rem 2rem;
+    border-radius: 8rem;
+    cursor: pointer;
+    transition: background-color 650ms;
+}
+
+input[type="submit"] {
+    color: blue;
+    background-color: gold;
+}
+
+.footer {
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40vh;
+    background-color: goldenrod;
+    color: white;
+    text-align: center;
+    margin-bottom: auto;
+    padding-top: 6px;
+}
+
+.models {
+    /* background-size: 100%; */
+    background-position: top;
+    height: 100%;
+    /* width: 100%; */
+    /* margin-left: 5px; */
+}
+
+.caroptionsmain {
+    display: flex;
+    position: relative;
+    transform: skew(-2deg) rotate(3deg);
+    -webkit-transform: skew(-3deg) rotate(2deg);
+    -moz-transform: skew(-3 deg) rotate(2deg);
+    overflow: hidden;
+}
+
+.newmain {
+    margin-left: 5%;
+}
+
+.newmodels {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 32%;
+    color: red;
+    font-size: 55px;
+    margin-left: 1px;
+}
+
+.oldmodels {
+    display: flex;
+    position: absolute;
+    top: 60%;
+    left: 52%;
+    color: red;
+    font-size: 55px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-size: 100%;
+}
+
+.oldmodels .button {
+    background-image: url('https://images.unsplash.com/reserve/oGLumRxPRmemKujIVuEG_LongExposure_i84.jpeg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+}
+
+.oldmain {
+    margin-left: 20%;
+}
+
+.caroptions {
+    display: flex;
+    margin-top: 10px;
+}
+
+.caroptions .new {
+    width: 50%;
+    color: red;
+    margin-left: 3%;
+}
+
+.caroptions .old {
+    width: 50%;
+    color: red;
+    position: center;
+}
+
+.toptext {
+    color: orangered;
+    padding-top: 20px;
+    /* margin-left: 40%; */
+    font-weight: bolder;
+}
+
+.newpage {
+    /* background-image: url('https://images.unsplash.com/reserve/oGLumRxPRmemKujIVuEG_LongExposure_i84.jpeg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60'); */
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    /* margin-left: -5px; */
+}
+
+.newpage .newoptions {
+    display: flex;
+    color: orangered;
+    /* padding: 5px; */
+}
+
+.newvan {
+    display: flex;
+    height: 5%;
+    width: 5%;
+    /* padding: 10px; */
+    /* padding-right: 5px; */
+}
+
+.allnewvan {
+    /* padding-right: 10px;
+    padding-left: 10px; */
+    color: indigo;
+}
