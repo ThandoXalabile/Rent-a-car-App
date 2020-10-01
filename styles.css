@@ -160,7 +160,7 @@ input[type="submit"] {
 }
 
 input[type="submit"] {
-    color: blue;
+    color: black;
     background-color: gold;
 }
 
@@ -279,4 +279,13 @@ input[type="submit"] {
     /* padding-right: 10px;
     padding-left: 10px; */
     color: indigo;
+}
+
+
+/* ratings */
+
+.checked {
+    color: gold;
+    padding-left: 10%;
+    padding-top: 5%;
 }
